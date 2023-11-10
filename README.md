@@ -4,11 +4,12 @@ An easy-to-use object oriented framework for Raylib 2D game development.
 
 #### WARNING
 This library has only been tested on Windows. The provided Makefile is only configured for Windows.
+SS2D is very early in production. Use at your own risk.
 
-[Features](features)
-[Install](install)
-[How to Use](how-to-use)
-[Dependencies](dependencies)
+[Features](features)  
+[Install](install)  
+[How to Use](how-to-use)  
+[Dependencies](dependencies)  
 
 ## Features
 
@@ -35,7 +36,9 @@ After creating your project structure and writing a simple driver program, build
 `g++ <source file(s)> -o <output name> -I<include dir> -L<lib dir> -lraylib -lopengl32 -lgdi32 -lwinmm -lss2d`
 
 Here's a copyable version with some dummy values:
-`g++ main.cpp -o build/program.exe -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -lss2d`
+```
+g++ main.cpp -o build/program.exe -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -lss2d
+```
 
 Congrats, your exe should have been built!
 
