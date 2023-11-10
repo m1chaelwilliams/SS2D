@@ -6,10 +6,10 @@ An easy-to-use object oriented framework for Raylib 2D game development.
 This library has only been tested on Windows. The provided Makefile is only configured for Windows.
 SS2D is very early in production. Use at your own risk.
 
-[Features](features)  
-[Install](install)  
-[How to Use](how-to-use)  
-[Dependencies](dependencies)  
+[Features](#features)  
+[Install](#install)  
+[How to Use](#how-to-use)  
+[Dependencies](#dependencies)  
 
 ## Features
 
